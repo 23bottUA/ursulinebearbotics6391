@@ -1,0 +1,128 @@
+/* bearbotics.html */
+body {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DE0000;
+  width: 101.4%;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  float: left;
+  color: black;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  font-size: 110%;
+  font-family: "Roboto Mono", monospace;
+}
+
+li a:hover {
+  background-color: #E0DCE8;
+  color: #DE0000
+}
+
+.a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #DE0000;
+  color: black
+}
+
+li .a {
+  text-decoration: none;
+}
+
+.bear {
+  float: left;
+  width: 85px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.champs {
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+  font-size: 300%;
+}
+
+.champspic {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.category {
+  font-family: "Roboto Mono", monospace;
+  margin-top: 30px;
+  font-size: 125%;
+  text-align: center;
+}
+
+.media {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.media-pic {
+  border-radius: 30%;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+#demo,
+#demo1 {
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 160%;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 175%;
+}
+
+.countdown {
+  border: solid 3px black;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #E0DCE8;
+}
