@@ -89,7 +89,7 @@ h3  {
   margin-bottom: auto;
 }
 
-@media only screen and (max-width: 896px) {
+@media screen and (max-width: 896px) {
   .sponsor-pic {
     max-width: 200px;
     max-height: 200px;
