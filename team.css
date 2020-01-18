@@ -89,7 +89,7 @@ h3  {
   margin-bottom: auto;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 900px) {
   .person-pic {
     border-radius: 50%;
     max-width: 400px;
