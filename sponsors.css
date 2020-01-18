@@ -89,7 +89,7 @@ h3  {
   margin-bottom: auto;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .sponsor-pic {
     max-width: 200px;
     max-height: 200px;
@@ -98,4 +98,4 @@ h3  {
     margin-right: 30px;
     background-color: white;
   }
-}
+} */
