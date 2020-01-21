@@ -99,6 +99,12 @@ h3  {
   margin-bottom: auto;
 }
 
+h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 110%;
+  margin-left: 20px;
+}
+
 /* @media only screen and (max-width: 896px) {
   .sponsor-pic {
     max-height: 90%;
