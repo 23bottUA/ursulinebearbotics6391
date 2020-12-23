@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="gallery.css">
     <link rel="icon" href="robotics pictures\bear.jpg" type="image/icon type">
     <link href="https://fonts.googleapis.com/css?family=Gayathri|PT+Sans+Narrow|Public+Sans|Roboto+Mono|Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Jura:wght@500&family=Montserrat&display=swap" rel="stylesheet">
     <title>Gallery</title>
   </head>
   <body>
@@ -59,131 +60,132 @@
 <!-- Modal Lightbox code -->
 
 <!-- Images used to open the lightbox -->
-<div class="lightbox">
+<div class="section">
+    <div class="row1">
+      <div class="column1">
+        <h3>2017</h3>
+        <img src="./robotics pictures\2017 Steamworks\36FF884B-0744-4C3D-905E-79287C5ABC98-805-0000006E733169AB.jpeg" onclick="openModal1();currentSlide1(1)" class="hover-shadow1" style="width: 300px;">
+      </div>
+    </div>
 
-<div class="row1">
-  <div class="column1">
-    <h3>2017</h3>
-    <img src="./robotics pictures\2017 Steamworks\36FF884B-0744-4C3D-905E-79287C5ABC98-805-0000006E733169AB.jpeg" onclick="openModal1();currentSlide1(1)" class="hover-shadow1" style="width: 300px;">
+      <!-- The Modal/Lightbox -->
+    <div id="myModal1" class="modal1">
+      <span class="close1" onclick="closeModal1()">&times;</span>
+      <div class="modal-content1">
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/award.JPG" style="width:100%; transform: rotate(90deg);">
+        </div>
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/billiken.JPG" style="width:100%; transform: rotate(90deg);">
+        </div>
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/IMG_0166.JPG" style="width:100%; transform: rotate(90deg);">
+        </div>
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/IMG_0174.JPG" style="width:100%; transform: rotate(90deg);">
+        </div>
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/IMG_0176.JPG" style="width:100%; transform: rotate(90deg);">
+        </div>
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/IMG_0200.JPG" style="width:100%; transform: rotate(180deg);">
+        </div>
+
+        <div class="mySlides1">
+          <img src="./robotics pictures/2017 Steamworks/IMG_0202.JPG" style="width:100%; transform: rotate(180deg);">
+        </div>
+
+        <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+        <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+
+      </div>
+    </div>
+
+  <div class="row2">
+    <div class="column2">
+      <h3>2018</h3>
+      <img src="./robotics pictures\2018\hero-power-up-logo-floating.png" onclick="openModal2();currentSlide2(1)" class="hover-shadow2" style="width: 300px; background: white;">
+    </div>
+  </div>
+
+      <!-- The Modal/Lightbox -->
+  <div id="myModal2" class="modal2">
+    <span class="close2" onclick="closeModal2()">&times;</span>
+    <div class="modal-content2">
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_168.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_162.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_136.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_90.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_59.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_44.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_41.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_35.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_31.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_20.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_16.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_12.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_10.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_2.jpg" style="width: 100%">
+        </div>
+
+        <div class="mySlides2">
+          <img src="./robotics pictures/2018/a_1.jpg" style="width: 100%">
+        </div>
+
+      <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+      <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+    </div>
   </div>
 </div>
 
-    <!-- The Modal/Lightbox -->
-<div id="myModal1" class="modal1">
-  <span class="close1" onclick="closeModal1()">&times;</span>
-  <div class="modal-content1">
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/award.JPG" style="width:100%; transform: rotate(90deg);">
-    </div>
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/billiken.JPG" style="width:100%; transform: rotate(90deg);">
-    </div>
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/IMG_0166.JPG" style="width:100%; transform: rotate(90deg);">
-    </div>
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/IMG_0174.JPG" style="width:100%; transform: rotate(90deg);">
-    </div>
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/IMG_0176.JPG" style="width:100%; transform: rotate(90deg);">
-    </div>
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/IMG_0200.JPG" style="width:100%; transform: rotate(180deg);">
-    </div>
-
-    <div class="mySlides1">
-      <img src="./robotics pictures/2017 Steamworks/IMG_0202.JPG" style="width:100%; transform: rotate(180deg);">
-    </div>
-
-    <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
-    <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
-
-  </div>
-</div>
-
-<div class="row2">
-  <div class="column2">
-    <h3>2018</h3>
-    <img src="./robotics pictures\2018\hero-power-up-logo-floating.png" onclick="openModal2();currentSlide2(1)" class="hover-shadow2" style="width: 300px; background: white;">
-  </div>
-</div>
-
-    <!-- The Modal/Lightbox -->
-<div id="myModal2" class="modal2">
-  <span class="close2" onclick="closeModal2()">&times;</span>
-  <div class="modal-content2">
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_168.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_162.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_136.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_90.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_59.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_44.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_41.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_35.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_31.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_20.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_16.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_12.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_10.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_2.jpg" style="width: 100%">
-      </div>
-
-      <div class="mySlides2">
-        <img src="./robotics pictures/2018/a_1.jpg" style="width: 100%">
-      </div>
-
-    <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
-    <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
-  </div>
-</div>
-
+<div class="section">
   <div class="row3">
     <div class="column3">
       <h3>2019</h3>

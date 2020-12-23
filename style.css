@@ -8,10 +8,11 @@ ul {
   margin: -10px;
   padding: 0;
   overflow: hidden;
-  background-color: #DE0000;
+  background-color: #960000;
   width: 101.4%;
   top: 0;
   left: 0;
+  box-shadow: 0px 10px 10px 1px #C0C5D1;
 }
 
 .title {
@@ -20,7 +21,7 @@ ul {
   padding-left: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
-  font-family: "Public Sans", sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 .links {
@@ -33,7 +34,7 @@ ul {
 
 li a:hover {
   background-color: #E0DCE8;
-  color: #DE0000
+  color: #960000;
 }
 
 .a {
@@ -42,7 +43,7 @@ li a:hover {
   padding-bottom: 32px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #DE0000;
+  background-color: #960000;
   color: black
 }
 
@@ -74,21 +75,34 @@ li .a {
   margin-right: auto;
 }
 
+.directory {
+  background-color: #960000;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  width: inherit;
+  box-shadow: 0px -10px 10px 1px #C0C5D1;
+}
+
 .medias {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  margin-left: 40px;
 }
 
 .category {
   font-family: "Roboto Mono", monospace;
   margin-top: 30px;
-  font-size: 125%;
-  text-align: center;
+  font-size: 150%;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .media {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 80%;
   display: flex;
   flex-direction: row;
