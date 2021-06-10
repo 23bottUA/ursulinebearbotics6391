@@ -27,6 +27,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+//modal 1
+
 // Open the Modal
 function openModal1() {
   document.getElementById("myModal1").style.display = "block";
@@ -66,6 +68,8 @@ function showSlides1(n) {
   dots1[slideIndex1-1].className += " active1";
   captionText.innerHTML = dots1[slideIndex1-1].alt;
 }
+
+//modal 2
 
 // Open the Modal
 function openModal2() {
@@ -107,6 +111,8 @@ function showSlides2(n) {
   captionText.innerHTML = dots2[slideIndex2-1].alt;
 }
 
+//modal 3
+
 // Open the Modal
 function openModal3() {
   document.getElementById("myModal3").style.display = "block";
@@ -147,6 +153,8 @@ function showSlides3(n) {
   captionText.innerHTML = dots3[slideIndex3-1].alt;
 }
 
+//modal 4
+
 // Open the Modal
 function openModal4() {
   document.getElementById("myModal4").style.display = "block";
@@ -185,4 +193,46 @@ function showSlides4(n) {
   slides4[slideIndex4-1].style.display = "block";
   dots4[slideIndex4-1].className += " active4";
   captionText.innerHTML = dots4[slideIndex4-1].alt;
+}
+
+//modal 5
+
+// Open the Modal
+function openModal5() {
+  document.getElementById("myModal5").style.display = "block";
+}
+
+// Close the Modal
+function closeModal5() {
+  document.getElementById("myModal5").style.display = "none";
+}
+
+var slideIndex5 = 1;
+showSlides5(slideIndex5);
+
+// Next/previous controls
+function plusSlides5(n) {
+  showSlides5(slideIndex5 += n);
+}
+
+// Thumbnail image controls
+function currentSlide5(n) {
+  showSlides5(slideIndex5 = n);
+}
+
+function showSlides5(n) {
+  var i;
+  var slides5 = document.getElementsByClassName("mySlides5");
+  var dots5 = document.getElementsByClassName("demo5");
+  if (n > slides5.length) {slideIndex5 = 1}
+  if (n < 1) {slideIndex5 = slides5.length}
+  for (i = 0; i < slides5.length; i++) {
+    slides5[i].style.display = "none";
+  }
+  for (i = 0; i < dots5.length; i++) {
+    dots5[i].className = dots5[i].className.replace(" active5", "");
+  }
+  slides5[slideIndex5-1].style.display = "block";
+  dots5[slideIndex5-1].className += " active5";
+  captionText.innerHTML = dots5[slideIndex5-1].alt;
 }

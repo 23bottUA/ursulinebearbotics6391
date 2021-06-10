@@ -88,9 +88,8 @@ li .a {
 
 .medias {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 40px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .category {
