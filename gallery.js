@@ -236,3 +236,45 @@ function showSlides5(n) {
   dots5[slideIndex5-1].className += " active5";
   captionText.innerHTML = dots5[slideIndex5-1].alt;
 }
+
+//modal 6
+
+// Open the Modal
+function openModal6() {
+  document.getElementById("myModal6").style.display = "block";
+}
+
+// Close the Modal
+function closeModal6() {
+  document.getElementById("myModal6").style.display = "none";
+}
+
+var slideIndex6 = 1;
+showSlides6(slideIndex6);
+
+// Next/previous controls
+function plusSlides6(n) {
+  showSlides6(slideIndex6 += n);
+}
+
+// Thumbnail image controls
+function currentSlide6(n) {
+  showSlides6(slideIndex6 = n);
+}
+
+function showSlides6(n) {
+  var i;
+  var slides6 = document.getElementsByClassName("mySlides6");
+  var dots6 = document.getElementsByClassName("demo6");
+  if (n > slides6.length) {slideIndex6 = 1}
+  if (n < 1) {slideIndex6 = slides6.length}
+  for (i = 0; i < slides6.length; i++) {
+    slides6[i].style.display = "none";
+  }
+  for (i = 0; i < dots6.length; i++) {
+    dots6[i].className = dots6[i].className.replace(" active6", "");
+  }
+  slides6[slideIndex6-1].style.display = "block";
+  dots6[slideIndex6-1].className += " active6";
+  captionText.innerHTML = dots6[slideIndex6-1].alt;
+}
